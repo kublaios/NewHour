@@ -24,7 +24,7 @@
     [self.view addSubview:txtResponse];
     
     // get the response from the server and show it in the textview
-    [PFCloud callFunctionInBackground:@"hello" withParameters:@{} block:^(NSString *result, NSError *error) {
+    [PFCloud callFunctionInBackground:@"sayMyName" withParameters:@{ @"myName": @"Kubilay" } block:^(NSString *result, NSError *error) {
         if (error) {
             txtResponse.text = error.localizedDescription;
         } else {
