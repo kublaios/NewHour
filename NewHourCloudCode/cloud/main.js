@@ -29,7 +29,8 @@ Parse.Cloud.job("notifyBoutTime", function(request, status) {
 		where: everyoneQuery,
 		expiration_interval: 300, // try to send for 5 minutes, not more
 		data: {
-			alert: "The time is " + getHour() + "!"
+			alert: "The time is " + getHour() + "!",
+			sound: "default"
 		}
 	}, {
 		success: function() {
