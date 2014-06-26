@@ -1,4 +1,4 @@
 NewHour
 =======
 
-Use Parse to make an app that sends single notification for each hour.
+Use Parse to make an iOS app that receives single notification for each hour.
