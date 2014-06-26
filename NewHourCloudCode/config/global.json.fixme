@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "NewHour": {
+            "applicationId": "ENTER_APPLICATION_ID_HERE", 
+            "masterKey": "ENTER_MASTER_KEY_HERE"
+        }, 
+        "_default": {
+            "link": "NewHour"
+        }
+    }
+}
